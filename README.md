@@ -1,5 +1,3 @@
-# coding
-To store my programs
 Hello!!
 This repository to store my progress and all the codes i have been using and writing during my
 undergraduation.
