@@ -1,0 +1,22 @@
+
+
+#
+#
+#
+  "car") echo "For $rental Rs.20 per k/m";;
+case $rental in 
+  *) echo "Sorry, I can not get a $rental for you";;
+elif [ -n $1 ]
+esac
+fi
+# i.e. -z $1 is defined and it is NULL
+# if no command line arg
+# if no vehicle name is given
+if [ -z $1 ]
+  "jeep") echo "For $rental 20 paisa per k/m";;
+# otherwise make first arg as rental
+  rental=$1
+  rental="*** Unknown vehicle ***"
+then
+then 
+  "van") echo "For $rental Rs.10 per k/m";;

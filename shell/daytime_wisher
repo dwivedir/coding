@@ -1,0 +1,14 @@
+hour=`date +%H`
+minute=`date +%M`
+second=`date +%S`
+# echo $hour
+if [ $hour -lt 12 ]; then
+  echo "Good morning"
+elif [ $hour -eq 12 -a $minute -eq 0 -a $second -eq 0 ]; then
+  echo "Good noon"
+elif [ $hour -ge 15 -a $second -gt 0 -a $minute -ge 0 ]; then
+  echo "Good evening"
+else 
+  echo "Good after noon"
+fi
+
