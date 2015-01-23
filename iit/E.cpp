@@ -1,8 +1,7 @@
 #include<bits/stdc++.h>
-typedef long long ll;
+typedef long long int ll;
 using namespace std;
 #define N 205
-#define INF 1000000000000
 ll mat[N][N];
 int Graph[N][N];
 bool bfs(int n, int m, int *parent)
@@ -58,7 +57,8 @@ int ford(int n, int m)
 
 ll binary(int n,int m, int k)
 {
-  ll low = 1, high = INF;
+  ll low = 1;
+  long long high = 1e12;
   while(low<high)
   {
     ll mid = (low+high)/2;

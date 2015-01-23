@@ -11,7 +11,7 @@ ll power(ll x, ll n, int mod)
   while(n>0)
   {
     if(n&1) y = (y*x)%mod;
-    x = x*x;
+    x = (x*x)%mod;
     n>>=1;
   }
   return y;
